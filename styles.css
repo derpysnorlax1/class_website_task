@@ -1,4 +1,34 @@
 body {
-    background-color: bisque;
-    font-style: italic;
+    background-color: #F4F7F5;
+    color: #08090A;
+    margin: 0px;
+}
+.logo {
+    max-width: 100px;
+    min-width: 60px;
+    padding: 10px;
+}
+.page-header {
+    background-color:#BA7BA1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navigation a {
+    color: #08090A;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 120%;
+}
+.navigation {
+    display: flex;
+}
+.nav-button {
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
 }
