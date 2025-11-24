@@ -27,6 +27,10 @@ body {
 .navigation {
     display: flex;
 }
+
+nav a:hover {
+    font-weight: bold;
+}
 .nav-button {
     background-color: transparent;
     border-color: transparent;
@@ -165,3 +169,11 @@ body {
     width: 100px;
     aspect-ratio: 4/3;
 }
+
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    gap: 10px;
+}
+
